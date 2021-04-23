@@ -27,3 +27,4 @@ jobs:
           heroku_app_name: "fso-pokedex-app"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           healthcheck: "https://fso-pokedex-app.herokuapp.com/health"
+          rollbackonhealthcheckfailed: true
