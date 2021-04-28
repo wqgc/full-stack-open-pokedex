@@ -9,3 +9,4 @@ this should cause an error!!
 
 // Just a comment to test branch-switching!
 // Will this do a status check now?
+// another comment to test
